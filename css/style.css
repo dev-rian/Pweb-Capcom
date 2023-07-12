@@ -13,7 +13,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #001C30
+    ;
 }
 header div img{
     width: 140px;
@@ -29,15 +30,15 @@ header .right{
 }
 header a{
     text-decoration: none;
-    color: #D4ADFC;
+    color: white;
     font-size: 20px;
 }
 header a:hover{
-    color: white;
+    color: #DAFFFB;
+
 }
 header h4{
     transition: transform 0.1s ease;
-
 }
 header h4:hover{
     transform: scale(0.95);
@@ -59,7 +60,7 @@ main .initial{
 }
 .initial h1{
     width: 60vw;
-    color: #D4ADFC;
+    color: #DAFFFB;
     font-size: 40px;
 }
 
@@ -67,7 +68,6 @@ main .initial{
 
 .about{
     height: 100vh;
-    background-color: #D4ADFC;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,7 +87,6 @@ main .initial{
 
 footer{
     height: 50px;
-    background-color: #D4ADFC;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -99,8 +98,22 @@ footer p{
 
 
 
+
 .games{
     width: auto;
-    height: calc(100vh - 80px);
-    background-color: rgb(255, 255, 255);
+}
+
+
+.imgGame img{
+    width: 200px;
+    object-fit: cover;
+    object-position: top center;
+}
+.txtGame{
+    width: 200px;
+}
+.txtGame p{
+    text-align: justify;
+    font-size: 12px;
+
 }
