@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header div img{
+    width: 140px;
+}
+header div{
+    display: flex;
+    margin: 0 80px;
+}
+header .right{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: #D4ADFC;
+    font-size: 20px;
+}
+header a:hover{
+    color: white;
+}
+header h4{
+    transition: transform 0.1s ease;
+
+}
+header h4:hover{
+    transform: scale(0.95);
+}
+
+
+main{
+    width: auto;
+    height: calc(100vh - 80px);
+    background: url('/img/1853820.jpg') no-repeat left top / cover;
+}
+main .initial{
+    width: auto;
+    height: calc(100vh - 80px);
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.initial h1{
+    width: 60vw;
+    color: #D4ADFC;
+    font-size: 40px;
+}
+
+
+
+.about{
+    height: 100vh;
+    background-color: #D4ADFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imageAbout img{
+    width: 40vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#textAbout{
+    width: 40vw;
+    text-align: justify;
+}
+
+
+
+footer{
+    height: 50px;
+    background-color: #D4ADFC;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+
+.games{
+    width: auto;
+    height: calc(100vh - 80px);
+    background-color: rgb(255, 255, 255);
+}
